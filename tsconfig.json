@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "target": "es2016",
+    "target": "ES5",
+    "lib": ["ES5", "ES6"],
     "module": "commonjs",
     "esModuleInterop": true,
     "alwaysStrict": true,
